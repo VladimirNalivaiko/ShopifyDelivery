@@ -11,8 +11,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.1.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.1.6" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="2.1.1" />
+    <PackageReference Include="ShopifySharp" Version="5.0.4" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +26,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Klakson-master\Klakson.BLL\ShopifyDelivery.BLL.csproj" />
+    <ProjectReference Include="..\..\Klakson-master\Klakson.DAL\ShopifyDelivery.DAL.csproj" />
     <ProjectReference Include="..\..\Klakson-master\Klakson.Entities\ShopifyDelivery.Entities.csproj" />
   </ItemGroup>
 
